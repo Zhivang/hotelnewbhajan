@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Explore Hotel New Bhajan's extensive menu featuring authentic North Indian cuisine, signature dishes, and family-favorite meals.">
+<title>Our Menu | Hotel New Bhajan & Restaurant</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Top Contact Bar -->
+<div class="top-bar">
+<div class="container top-bar-content">
+<div class="contact-info">
+<span><i class="fas fa-map-marker-alt"></i> Station Road, Near Hardoi Overbridge, Unnao</span>
+<span><i class="fas fa-phone-alt"></i> +91-98765-43210</span>
+</div>
+<div class="social-icons">
+<a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+</div>
+
+<!-- Main Navigation -->
+<nav class="navbar">
+<div class="container nav-container">
+<a href="index.html" class="logo">
+HOTEL NEW BHAJAN
+<span>& RESTAURANT</span>
+</a>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+<li><a href="banquet.html">Banquet</a></li>
+<li><a href="contact.html" class="btn btn-red nav-btn">Contact Us</a></li>
+</ul>
+<!-- Mobile Menu Toggle -->
+<div class="mobile-menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); height: 60vh;">
+<div class="hero-content">
+<span class="hero-subtitle">Culinary Excellence</span>
+<h1>Our Dining Menu</h1>
+<p>Authentic North Indian flavors crafted with passion and tradition.</p>
+</div>
+</section>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+<div class="container">
+<a href="index.html">Home</a>
+<span>/</span>
+<span class="current">Menu</span>
+</div>
+</div>
+
+<!-- Menu Section -->
+<section class="section-padding pattern-overlay">
+<div class="container">
+<div class="section-header">
+<span>Our Specialties</span>
+<h2>Complete Menu</h2>
+<p>From signature gravies to refreshing beverages, discover our full range of culinary offerings prepared fresh daily in our hygienic kitchen.</p>
+</div>
+
+<!-- Category Filter Buttons -->
+<div class="food-categories">
+<button class="cat-btn active">All Favorites</button>
+<button class="cat-btn">Paneer Specials</button>
+<button class="cat-btn">Thalis</button>
+<button class="cat-btn">Chinese</button>
+<button class="cat-btn">Breads</button>
+<button class="cat-btn">Beverages</button>
+</div>
+
+<!-- Menu Grid -->
+<div class="menu-grid">
+<!-- Paneer Specials -->
+<div class="menu-card fade-in" data-category="paneer specials">
+<img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Handi Paneer" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Handi Paneer</h4>
+<span class="price">₹280</span>
+</div>
+<p class="menu-desc">Our legendary signature dish featuring soft paneer cubes simmered in a rich, aromatic clay-pot spiced gravy with a perfect blend of traditional spices.</p>
+<span class="bestseller-badge"><i class="fas fa-star"></i> SIGNATURE DISH</span>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="paneer specials">
+<img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Shahi Paneer" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Shahi Paneer</h4>
+<span class="price">₹260</span>
+</div>
+<p class="menu-desc">Royal recipe with paneer cubes in a creamy cashew and tomato gravy enriched with cream and aromatic spices.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="paneer specials">
+<img src="https://images.unsplash.com/photo-1626074353765-517a681e40be?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Malai Kofta" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Malai Kofta</h4>
+<span class="price">₹290</span>
+</div>
+<p class="menu-desc">Delicately fried potato and paneer dumplings swimming in a velvety, buttery cashew gravy.</p>
+<span class="bestseller-badge"><i class="fas fa-fire"></i> CUSTOMER FAVORITE</span>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="paneer specials">
+<img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Paneer Butter Masala" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Paneer Butter Masala</h4>
+<span class="price">₹270</span>
+</div>
+<p class="menu-desc">Classic preparation with tender paneer in a smooth, buttery tomato-based gravy with a hint of fenugreek.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="paneer specials">
+<img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Kadai Paneer" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Kadai Paneer</h4>
+<span class="price">₹265</span>
+</div>
+<p class="menu-desc">Paneer cubes cooked with capsicum, onions, and tomatoes in a semi-dry, spicy kadai masala preparation.</p>
+</div>
+</div>
+
+<!-- Thalis -->
+<div class="menu-card fade-in" data-category="thalis">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Maharaja Thali" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Maharaja Thali</h4>
+<span class="price">₹350</span>
+</div>
+<p class="menu-desc">Complete royal meal with Dal Makhani, Shahi Paneer, Mix Veg, Jeera Rice, 4 Rotis, Salad, Raita, Papad, and Dessert.</p>
+<span class="bestseller-badge"><i class="fas fa-crown"></i> BEST VALUE</span>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="thalis">
+<img src="https://images.unsplash.com/photo-1546833998-877b37c2e5c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Special Thali" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Special Thali</h4>
+<span class="price">₹280</span>
+</div>
+<p class="menu-desc">Dal Tadka, Paneer Curry, Seasonal Veg, Steamed Rice, 3 Rotis, Salad, Raita, and Sweet.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="thalis">
+<img src="https://images.unsplash.com/photo-1585937421612-70a008356f36?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mini Thali" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Mini Thali</h4>
+<span class="price">₹180</span>
+</div>
+<p class="menu-desc">Perfect for light appetite. Dal, One Sabzi, Rice, 2 Rotis, and Salad.</p>
+</div>
+</div>
+
+<!-- Chinese -->
+<div class="menu-card fade-in" data-category="chinese">
+<img src="https://images.unsplash.com/photo-1585937421612-70a008356f36?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Chilli Paneer" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Chilli Paneer Dry</h4>
+<span class="price">₹220</span>
+</div>
+<p class="menu-desc">Indo-Chinese fusion favorite with crispy paneer cubes tossed in spicy soy and chilli sauce with bell peppers.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="chinese">
+<img src="https://images.unsplash.com/photo-1626804475297-41608ea09aeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Veg Manchurian" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Veg Manchurian Gravy</h4>
+<span class="price">₹200</span>
+</div>
+<p class="menu-desc">Mixed vegetable dumplings in a tangy, savory brown sauce with a perfect balance of sweet and spicy.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="chinese">
+<img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Hakka Noodles" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Veg Hakka Noodles</h4>
+<span class="price">₹180</span>
+</div>
+<p class="menu-desc">Stir-fried noodles with fresh vegetables, tossed in authentic Chinese sauces and aromatic spices.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="chinese">
+<img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fried Rice" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Veg Fried Rice</h4>
+<span class="price">₹170</span>
+</div>
+<p class="menu-desc">Perfectly cooked rice stir-fried with colorful vegetables, soy sauce, and aromatic seasonings.</p>
+</div>
+</div>
+
+<!-- Breads -->
+<div class="menu-card fade-in" data-category="breads">
+<img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Butter Naan" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Butter Naan</h4>
+<span class="price">₹40</span>
+</div>
+<p class="menu-desc">Soft, fluffy tandoor-baked bread brushed with melted butter, perfect companion to any gravy.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="breads">
+<img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Garlic Naan" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Garlic Naan</h4>
+<span class="price">₹50</span>
+</div>
+<p class="menu-desc">Our classic naan topped with fresh garlic and coriander, baked to perfection in the tandoor.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="breads">
+<img src="https://images.unsplash.com/photo-1619173473272-73f9c6dc31a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Laccha Paratha" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Laccha Paratha</h4>
+<span class="price">₹45</span>
+</div>
+<p class="menu-desc">Multi-layered, flaky whole wheat bread with a crispy exterior and soft, buttery layers inside.</p>
+</div>
+</div>
+
+<!-- Dal and Rice -->
+<div class="menu-card fade-in" data-category="all favorites">
+<img src="https://images.unsplash.com/photo-1546833999-b9f581602809?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Dal Makhani" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Dal Makhani</h4>
+<span class="price">₹220</span>
+</div>
+<p class="menu-desc">Slow-cooked black lentils and kidney beans in a creamy tomato gravy with butter and cream.</p>
+<span class="bestseller-badge"><i class="fas fa-heart"></i> HOUSE SPECIALTY</span>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="all favorites">
+<img src="https://images.unsplash.com/photo-1642821373181-696a54913e93?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Kashmiri Veg Biryani" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Kashmiri Veg Biryani</h4>
+<span class="price">₹240</span>
+</div>
+<p class="menu-desc">Aromatic basmati rice layered with fresh vegetables, saffron, and dry fruits, cooked in the dum style.</p>
+</div>
+</div>
+
+<!-- Beverages -->
+<div class="menu-card fade-in" data-category="beverages">
+<img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Lassi" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Sweet/Salted Lassi</h4>
+<span class="price">₹80</span>
+</div>
+<p class="menu-desc">Refreshing traditional yogurt-based drink, available in sweet or salted varieties.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="beverages">
+<img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fresh Juice" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Fresh Fruit Juice</h4>
+<span class="price">₹100</span>
+</div>
+<p class="menu-desc">Seasonal fresh fruit juices made to order. Options include orange, watermelon, and mixed fruit.</p>
+</div>
+</div>
+
+<div class="menu-card fade-in" data-category="beverages">
+<img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Masala Chai" class="menu-img">
+<div class="menu-info">
+<div class="menu-header">
+<h4>Masala Chai</h4>
+<span class="price">₹30</span>
+</div>
+<p class="menu-desc">Traditional Indian spiced tea brewed with cardamom, ginger, and other aromatic spices.</p>
+</div>
+</div>
+</div>
+
+<!-- Download Menu Button -->
+<div class="text-center fade-in" style="margin-top: 60px;">
+<p style="font-size: 1.1rem; color: #666; margin-bottom: 20px;">Want to take our menu with you?</p>
+<a href="#" class="btn btn-red">Download Full Menu PDF</a>
+</div>
+</div>
+</section>
+
+<!-- Call to Action -->
+<section class="section-padding" style="background-color: var(--off-white);">
+<div class="container text-center">
+<h2 style="font-size: 2.5rem; margin-bottom: 20px; color: var(--primary-red);">Ready to Experience Our Flavors?</h2>
+<p style="font-size: 1.2rem; margin-bottom: 40px; color: #666;">Visit us today or call ahead to reserve your table for a memorable dining experience.</p>
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<a href="contact.html" class="btn btn-gold">Reserve a Table</a>
+<a href="tel:+919876543210" class="btn btn-red">Call Now</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div class="footer-info">
+<span class="footer-logo">New Bhajan <span>& Restaurant</span></span>
+<p>Unnao's premier destination for fine dining and comfortable accommodations. Since 1995, we have been blending traditional Indian hospitality with modern convenience to create memorable experiences for our guests.</p>
+</div>
+<div class="footer-links">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+<li><a href="banquet.html">Events & Banquet</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-info">
+<h4>Contact Us</h4>
+<p><i class="fas fa-map-marker-alt"></i> Station Road, Under Hardoi Overbridge, Civil Lines, Unnao, Uttar Pradesh 209801</p>
+<p><i class="fas fa-phone"></i> +91 0515 2822822</p>
+<p><i class="fas fa-envelope"></i> info@hotelnewbhajan.com</p>
+</div>
+</div>
+<div class="copyright">
+<p>&copy; 2026 Hotel New Bhajan & Restaurant. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>

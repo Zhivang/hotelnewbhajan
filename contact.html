@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact Hotel New Bhajan for reservations, inquiries, or feedback. Find our location, phone numbers, and send us a message.">
+<title>Contact Us | Hotel New Bhajan & Restaurant</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Top Contact Bar -->
+<div class="top-bar">
+<div class="container top-bar-content">
+<div class="contact-info">
+<span><i class="fas fa-map-marker-alt"></i> Station Road, Near Hardoi Overbridge, Unnao</span>
+<span><i class="fas fa-phone-alt"></i> +91-98765-43210</span>
+</div>
+<div class="social-icons">
+<a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+</div>
+
+<!-- Main Navigation -->
+<nav class="navbar">
+<div class="container nav-container">
+<a href="index.html" class="logo">
+HOTEL NEW BHAJAN
+<span>& RESTAURANT</span>
+</a>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+<li><a href="banquet.html">Banquet</a></li>
+<li><a href="contact.html" class="btn btn-red nav-btn">Contact Us</a></li>
+</ul>
+<!-- Mobile Menu Toggle -->
+<div class="mobile-menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); height: 50vh;">
+<div class="hero-content">
+<span class="hero-subtitle">Get In Touch</span>
+<h1>Contact Us</h1>
+<p>We're here to help with reservations, inquiries, and special requests.</p>
+</div>
+</section>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+<div class="container">
+<a href="index.html">Home</a>
+<span>/</span>
+<span class="current">Contact</span>
+</div>
+</div>
+
+<!-- Contact Information Cards -->
+<section class="section-padding" style="background-color: var(--off-white);">
+<div class="container">
+<div class="section-header">
+<span>Reach Out to Us</span>
+<h2>Contact Information</h2>
+<p>Multiple ways to connect with us for your convenience.</p>
+</div>
+
+<div class="grid-3">
+<div class="contact-info-box fade-in">
+<i class="fas fa-map-marker-alt"></i>
+<h4>Visit Us</h4>
+<p>Station Road, Under Hardoi Overbridge</p>
+<p>Civil Lines, Unnao</p>
+<p>Uttar Pradesh 209801</p>
+</div>
+
+<div class="contact-info-box fade-in">
+<i class="fas fa-phone-alt"></i>
+<h4>Call Us</h4>
+<p><strong>Main:</strong> +91 0515 2822822</p>
+<p><strong>Mobile:</strong> +91 98765 43210</p>
+<p><strong>Events:</strong> +91 98765 43211</p>
+</div>
+
+<div class="contact-info-box fade-in">
+<i class="fas fa-envelope"></i>
+<h4>Email Us</h4>
+<p><strong>General:</strong> info@hotelnewbhajan.com</p>
+<p><strong>Bookings:</strong> reservations@hotelnewbhajan.com</p>
+<p><strong>Events:</strong> events@hotelnewbhajan.com</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Form & Map -->
+<section class="section-padding">
+<div class="container">
+<div class="grid-2">
+<!-- Contact Form -->
+<div class="fade-in">
+<h2 style="font-size: 2.5rem; margin-bottom: 15px; color: var(--primary-red);">Send Us a Message</h2>
+<p style="color: #666; margin-bottom: 30px; line-height: 1.8;">Have questions or special requests? Fill out the form below and our team will get back to you within 24 hours. For immediate assistance, please call us directly.</p>
+
+<div class="contact-form">
+<form id="contactForm">
+<div class="form-group">
+<label for="name">Full Name *</label>
+<input type="text" id="name" name="name" required placeholder="Enter your full name">
+</div>
+
+<div class="form-group">
+<label for="email">Email Address *</label>
+<input type="email" id="email" name="email" required placeholder="your.email@example.com">
+</div>
+
+<div class="form-group">
+<label for="phone">Phone Number *</label>
+<input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+</div>
+
+<div class="form-group">
+<label for="subject">Subject *</label>
+<select id="subject" name="subject" required>
+<option value="">Select a subject</option>
+<option value="room-booking">Room Booking Inquiry</option>
+<option value="restaurant-reservation">Restaurant Table Reservation</option>
+<option value="banquet-inquiry">Banquet/Event Inquiry</option>
+<option value="feedback">Feedback or Complaint</option>
+<option value="other">Other</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="message">Your Message *</label>
+<textarea id="message" name="message" required placeholder="Please provide details about your inquiry..."></textarea>
+</div>
+
+<button type="submit" class="btn btn-red" style="width: 100%;">
+<i class="fas fa-paper-plane" style="margin-right: 8px;"></i> Send Message
+</button>
+</form>
+</div>
+</div>
+
+<!-- Map and Operating Hours -->
+<div class="fade-in">
+<h3 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-red);">Find Us on Map</h3>
+<div class="map-container" style="margin-bottom: 30px;">
+<!-- Google Maps Embed - Replace with actual coordinates -->
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.5847982468924!2d80.49089931503842!3d26.541686983367574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c47a9b7d0c3df%3A0x8e3f5f5c5f5c5f5c!2sUnnao%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+allowfullscreen=""
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+
+<div class="card">
+<div style="padding: 30px;">
+<h4 style="margin-bottom: 20px; color: var(--primary-red); font-size: 1.5rem;">
+<i class="fas fa-clock" style="color: var(--primary-gold); margin-right: 10px;"></i>
+Operating Hours
+</h4>
+
+<div style="margin-bottom: 25px;">
+<h5 style="color: var(--dark-charcoal); margin-bottom: 10px; font-size: 1.1rem;">Restaurant</h5>
+<p style="color: #666; line-height: 1.8;">
+<strong>Breakfast:</strong> 7:00 AM - 10:30 AM<br>
+<strong>Lunch:</strong> 12:00 PM - 3:30 PM<br>
+<strong>Dinner:</strong> 7:00 PM - 11:00 PM<br>
+<span style="color: var(--primary-red); font-weight: 600;">Open All Days</span>
+</p>
+</div>
+
+<div style="margin-bottom: 25px;">
+<h5 style="color: var(--dark-charcoal); margin-bottom: 10px; font-size: 1.1rem;">Reception & Check-in</h5>
+<p style="color: #666; line-height: 1.8;">
+<strong>24/7 Service</strong><br>
+Check-in: From 12:00 PM<br>
+Check-out: Until 11:00 AM
+</p>
+</div>
+
+<div>
+<h5 style="color: var(--dark-charcoal); margin-bottom: 10px; font-size: 1.1rem;">Banquet Bookings</h5>
+<p style="color: #666; line-height: 1.8;">
+<strong>Office Hours:</strong> 9:00 AM - 6:00 PM<br>
+For event inquiries, please call or email us during office hours for detailed consultation.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ Section -->
+<section class="section-padding" style="background-color: var(--off-white);">
+<div class="container">
+<div class="section-header">
+<span>Quick Answers</span>
+<h2>Frequently Asked Questions</h2>
+</div>
+
+<div style="max-width: 900px; margin: 0 auto;">
+<div class="card fade-in" style="margin-bottom: 20px;">
+<div style="padding: 25px;">
+<h4 style="color: var(--primary-red); margin-bottom: 10px; font-size: 1.2rem;">
+<i class="fas fa-question-circle" style="color: var(--primary-gold); margin-right: 10px;"></i>
+Do you accept online payments for room bookings?
+</h4>
+<p style="color: #666; line-height: 1.8;">Yes, we accept online payments through various methods including credit cards, debit cards, and UPI. You can also pay at the time of check-in. For advance bookings, we require 30% advance payment.</p>
+</div>
+</div>
+
+<div class="card fade-in" style="margin-bottom: 20px;">
+<div style="padding: 25px;">
+<h4 style="color: var(--primary-red); margin-bottom: 10px; font-size: 1.2rem;">
+<i class="fas fa-question-circle" style="color: var(--primary-gold); margin-right: 10px;"></i>
+Is parking available at the hotel?
+</h4>
+<p style="color: #666; line-height: 1.8;">Yes, we provide complimentary parking for all our guests. We have a spacious parking area that can accommodate cars, SUVs, and two-wheelers. Valet parking service is also available for events and banquet guests.</p>
+</div>
+</div>
+
+<div class="card fade-in" style="margin-bottom: 20px;">
+<div style="padding: 25px;">
+<h4 style="color: var(--primary-red); margin-bottom: 10px; font-size: 1.2rem;">
+<i class="fas fa-question-circle" style="color: var(--primary-gold); margin-right: 10px;"></i>
+Can I book your restaurant for a private party?
+</h4>
+<p style="color: #666; line-height: 1.8;">Absolutely! We offer private dining arrangements in our restaurant for smaller groups (up to 50 people). For larger events, our banquet hall is the perfect choice. Contact our events team to discuss your requirements and get a customized quote.</p>
+</div>
+</div>
+
+<div class="card fade-in" style="margin-bottom: 20px;">
+<div style="padding: 25px;">
+<h4 style="color: var(--primary-red); margin-bottom: 10px; font-size: 1.2rem;">
+<i class="fas fa-question-circle" style="color: var(--primary-gold); margin-right: 10px;"></i>
+Do you offer home delivery for your restaurant menu?
+</h4>
+<p style="color: #666; line-height: 1.8;">Currently, we do not offer direct home delivery service. However, you can order through popular food delivery platforms like Zomato and Swiggy, or call us for takeaway orders which you can pick up from our restaurant.</p>
+</div>
+</div>
+
+<div class="card fade-in">
+<div style="padding: 25px;">
+<h4 style="color: var(--primary-red); margin-bottom: 10px; font-size: 1.2rem;">
+<i class="fas fa-question-circle" style="color: var(--primary-gold); margin-right: 10px;"></i>
+What is your cancellation policy for banquet bookings?
+</h4>
+<p style="color: #666; line-height: 1.8;">For banquet bookings, we require at least 15 days advance notice for cancellations to receive a full refund. Cancellations made between 7-14 days will receive a 50% refund. Cancellations made less than 7 days before the event are non-refundable, though we offer rescheduling options subject to availability.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Call to Action -->
+<section class="stats-section">
+<div class="container text-center">
+<h2 style="font-size: 2.5rem; margin-bottom: 20px;">Ready to Experience Our Hospitality?</h2>
+<p style="font-size: 1.2rem; margin-bottom: 40px; opacity: 0.9;">Whether it's a delicious meal, comfortable stay, or grand celebration, we're here to serve you.</p>
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+<a href="menu.html" class="btn btn-gold">View Our Menu</a>
+<a href="rooms.html" class="btn btn-outline">Book a Room</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div class="footer-info">
+<span class="footer-logo">New Bhajan <span>& Restaurant</span></span>
+<p>Unnao's premier destination for fine dining and comfortable accommodations. Since 1995, we have been blending traditional Indian hospitality with modern convenience to create memorable experiences for our guests.</p>
+</div>
+<div class="footer-links">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+<li><a href="banquet.html">Events & Banquet</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-info">
+<h4>Contact Us</h4>
+<p><i class="fas fa-map-marker-alt"></i> Station Road, Under Hardoi Overbridge, Civil Lines, Unnao, Uttar Pradesh 209801</p>
+<p><i class="fas fa-phone"></i> +91 0515 2822822</p>
+<p><i class="fas fa-envelope"></i> info@hotelnewbhajan.com</p>
+</div>
+</div>
+<div class="copyright">
+<p>&copy; 2026 Hotel New Bhajan & Restaurant. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>
